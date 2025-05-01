@@ -1,5 +1,5 @@
 {
-    // spread operatio
+    // spread operator
 
     const bros1: string[] =['Mir', "Firoz", "Mizan"];
     const bros2: string[] = ["Tanmoy", "Nahid from bkash", "Rahat"]
@@ -31,7 +31,4 @@
     }
 
     geetFriends("Abdul", "Humayun", "Kader")
-
-
-
 }
