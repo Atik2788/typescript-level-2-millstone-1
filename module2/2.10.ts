@@ -5,7 +5,7 @@
         height: Number;
         width: number;
     }
-    
+
 
     type AreaString<T> ={
         [key in keyof T] : T[key];
@@ -15,5 +15,7 @@
         height: '100',
         width: 50
     }
+
+    
 
 }
