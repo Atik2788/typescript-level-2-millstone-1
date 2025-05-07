@@ -45,4 +45,6 @@
         b: 'bb'
      }
 
+     const EmptyObj : Record<string, unknown> = {}
+
 }

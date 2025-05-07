@@ -3,6 +3,7 @@ function add(num, num2) {
     return num + num2;
 }
 add(2, 2);
+
 const poorUser = {
     name: "Atik",
     balance: 0,
