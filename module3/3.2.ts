@@ -1,5 +1,5 @@
 {
-    // OOP Inheritence: its 
+    // OOP Inheritence:
 
     // parent class
     class Parent{
@@ -36,7 +36,7 @@
             console.log(`${this.name} will take ${numOfClass} classes`);
         }
     }
-    
+
     const teacher1 = new Teacher("Mr T", 40, 'Dhaka', "Uganda")
     teacher1.getClass(8)
 
