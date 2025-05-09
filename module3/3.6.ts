@@ -13,15 +13,25 @@
                 this._newBalance = newBalance;
             }
     
+
+
             // public addDeposite(amount: number){
             //     this._balance = this._balance + amount
             // }
+
+            // setter
+              set deposite(amount:number){
+                this._balance = this._balance + amount;
+              }
+
+
     
             // public getBalance(){
             //     return this._balance
             // }
+
             // getter
-            get Balance(){
+            get balance(){          // get ব্যবহার করলে ফাংশান কে কল করতে হয় না।
                 return this._balance;
             }
         }
@@ -37,8 +47,10 @@
         const goribManusAccount = new BankAccount(111, 'Mr Gorib', 10, 10)
 
         // goribManusAccount.addDeposite(500)
+        goribManusAccount.deposite = 100; // using set
+
         // const myBalance = goribManusAccount.getBalance()
-        const myBalance = goribManusAccount.Balance
+        const myBalance = goribManusAccount.balance // get ব্যবহার করলে ফাংশান কে কল করতে হয় না।
 
         console.log(myBalance);
     
