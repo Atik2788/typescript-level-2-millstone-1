@@ -16,5 +16,4 @@
     console.log(Counter.increment());
     console.log(Counter.increment());
 
-
 }
